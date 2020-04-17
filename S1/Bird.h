@@ -10,8 +10,8 @@ public:
 	int getLegs(){
 		return m_nlegs;
 	}*/
-private : 
-	int m_nlegs=2;
+private:
+	int m_nlegs = 2;
 
 };
 
