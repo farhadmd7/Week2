@@ -4,12 +4,14 @@ class Bird : public Animal
 {
 public:
 	bool m_bird = 1;
-	//either outside class definition
+	/*
+	either outside class definition
 	int getLegs();
-	/*or inside class definition
+	*/
+	// inside class definition
 	int getLegs(){
 		return m_nlegs;
-	}*/
+	}
 private:
 	int m_nlegs = 2;
 
