@@ -6,7 +6,7 @@ int Bird::getLegs() {
 */
 
 void Bird::move() {
-	this.getM_position() = getM_position() + 7;
+	this->setPosition(getM_position() + 7);
 }
 
 
