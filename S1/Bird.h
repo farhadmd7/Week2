@@ -12,6 +12,8 @@ public:
 	int getLegs(){
 		return m_nlegs;
 	}
+	void move() override ;
+
 private:
 	int m_nlegs = 2;
 
