@@ -20,12 +20,9 @@ public:
 	int getM_position() {
 		return m_position;
 	}
-<<<<<<< HEAD
+
 	void setPosition(const int& positon)
 		//& barayae performance balatar
-=======
-	void setPosition(const int & positon)
->>>>>>> FETCH_HEAD
 	{
 		m_position = positon;
 	}
