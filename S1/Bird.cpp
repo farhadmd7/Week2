@@ -11,6 +11,7 @@ int& getM_position() {
     return m_position;
 }
 void Bird::move() {
+<<<<<<< HEAD
     this->getM_position() = getM_position() + 7;
  
 }
@@ -24,6 +25,9 @@ void Bird::move() {
 const int& getLegs() const
 {
     return m_nlegs;
+=======
+	this->setPosition(getM_position() + 7);
+>>>>>>> FETCH_HEAD
 }
 
 int& getLegs()
