@@ -17,15 +17,15 @@ void function() {
 
 	//delete& bird1; we cant delete from stack
 	//std::cout << "m_alive: " << bird1.m_alive;
-	Animal animal1(5);
-	animal1.move();
+	//Animal animal1(5);
+	//animal1.move();
 	Bird bird2;
 	bird2.move();
-	std::cout <<"position of animal1: "<< animal1.getM_position() << std::endl;
+	//std::cout <<"position of animal1: "<< animal1.getM_position() << std::endl;
 	std::cout << "position of bird2: " << bird2.getM_position() << std::endl;
 	std::cout <<"n_animal: " <<Animal::n_animal<<std::endl;
 }
 int main() {
 	function();
 	
-}
+}		

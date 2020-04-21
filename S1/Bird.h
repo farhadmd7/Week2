@@ -9,8 +9,12 @@ public:
 	int getLegs();
 	*/
 	// inside class definition
-	int getLegs(){
+	/*int getLegs(){
 		return m_nlegs;
+	}*/
+	int* getLegs()
+	{
+		return &m_nlegs;
 	}
 	void move() override ;
 

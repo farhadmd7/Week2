@@ -20,6 +20,11 @@ public:
 	int getM_position() {
 		return m_position;
 	}
+	void setPosition(const int& positon)
+		//& barayae performance balatar
+	{
+		m_position = positon;
+	}
 };
 
 /*not allow people to create instansces ..2 different strategy:
